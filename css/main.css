@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%;height: 70px;box-shadow: 5px 5px 5px gray;margin-bottom: 5px
+}
+.logo{
+	padding-top: 20px
+}
+.menu{
+	padding-top: 20px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none;color: #7F7F7F;font-size: 17px;border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color:darkred;color: white
+}
+.icon{
+	padding-top: 15px;
+}
+.icon a{
+	margin-left: 7px
+}
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:50px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #B8B8B8
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#F18E90;
+      text-decoration: none; }
+
+#slider .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slider .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+.gach-chan{
+	border-bottom: 3px solid darkred;font-size: 35px
+}
+.ten{
+	font-size: 17px;font-weight: bold;
+}
+.gia{
+	color: darkred
+}
+.vien{
+	width: 100%;border: 1px solid darkred;padding: 15px;border-radius: 5px;position: relative;overflow: hidden
+}
+.social{
+	position: absolute;width: 80%;height: 40px;left: 10%;display: flex;justify-content: space-around;top: -10%;transition: all 1s
+}
+.social a{
+	width: 40px;height: 40px;background-color: darkred;color: white;border-radius: 50%;display: flex;justify-content: center;align-items: center;text-decoration: none
+}
+.social a:hover{
+	background-color: white;color: darkred
+}
+.vien:hover .social{
+	top: 45%
+}
